@@ -1,5 +1,6 @@
-# Requires -RunAsAdministrator
+# Requires -RunAsAdministrator 
 # Get the Hyper-V feature and store it in $hyperv
+# (I do not sure tha this code is correct !!!)
 $hyperv = Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All
 
 # Check if Hyper-V is already enabled.
